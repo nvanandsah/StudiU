@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/cbse"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/cbse"
+        android:layout_below="@id/class_10"
+        style="@style/classes_text_view_style"
+        />
+    <TextView
+        android:id="@+id/jee"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/jee"
+        android:layout_below="@id/cbse"
+        style="@style/classes_text_view_style"
+        />
+
+    <TextView
+        android:id="@+id/neet"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/neet"
+        android:layout_below="@id/jee"
+        style="@style/classes_text_view_style"
+        />
+
+</RelativeLayout>

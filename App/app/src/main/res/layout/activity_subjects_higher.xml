@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/rel_layout"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/phy"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/phy"
+        android:tag="phy"
+        style="@style/classes_text_view_style"
+        />
+
+    <TextView
+        android:id="@+id/chem"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/chem"
+        android:tag="chem"
+        android:layout_below="@id/phy"
+        style="@style/classes_text_view_style"
+        />
+    <TextView
+        android:id="@+id/mth_high"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/mth"
+        android:tag="mth"
+        android:layout_below="@id/chem"
+        style="@style/classes_text_view_style"
+        />
+    <TextView
+        android:id="@+id/bio"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/bio"
+        android:tag="bio"
+        android:layout_below="@id/mth_high"
+        style="@style/classes_text_view_style"
+        />
+
+</RelativeLayout>

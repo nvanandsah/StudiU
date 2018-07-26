@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rel_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/sci"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/sci"
+        android:tag="sci"
+        style="@style/classes_text_view_style"
+        />
+
+    <TextView
+        android:id="@+id/soc"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/soc"
+        android:tag="soc"
+        android:layout_below="@id/sci"
+        style="@style/classes_text_view_style"
+        />
+    <TextView
+        android:id="@+id/mth"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/mth"
+        android:tag="mth"
+        android:layout_below="@id/soc"
+        style="@style/classes_text_view_style"
+        />
+
+    <TextView
+        android:id="@+id/eng"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/eng"
+        android:tag="eng"
+        android:layout_below="@id/mth"
+        style="@style/classes_text_view_style"
+        />
+
+</RelativeLayout>
